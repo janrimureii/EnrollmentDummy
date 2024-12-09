@@ -35,17 +35,24 @@
                 <input type="text" id="lastName">
             </div>
             <br>
-            <div clas="gender">
-                <input type="radio" id="male">
+                <form>
+                    <div class="gender">
+                <input type="radio" id="gender" name="gender">
                 <label> Male </label>
-                <br>
-                <input type="radio" id="female">
+                    <br>
+                    <br>
+                <input type="radio" id="gender" name="gender">
                 <label> Female </label>
-            </div>
+                    <br>
+                    <br>
+                <input type="radio" id="gender" name="gender">
+                <label> Rather not say </label>
+                    </div>
+                </form>
         </div>
             <br> 
 
-        <div class="secondary info">
+        <div class="secondaryInfo">
             <!-- for the essential informations credential -->
              <div>
                 <label> Birth date:</label>
@@ -62,23 +69,20 @@
              <div>
                 <label>Programs</label>
                     <br>
-                        <div>
-                            <input type="checkbox" id="BSIT">
+                        <div class="programs">
+                            <input type="radio" id="course" name="course">
                             <label>BS Information Technology</label>
-                        </div>
                     <br>
-                        <div>
-                            <input type="checkbox" id="BSCS">
+                    <br>
+                            <input type="radio" id="course" name="course">
                             <label> BS Computer Science </label>
-                        </div>
                     <br>
-                        <div>
-                            <input type="checkbox" id="BSCPE">
+                    <br>
+                            <input type="radio" id="course" name="course">
                             <label> BS Computer Engineering </label>
-                        </div>
                     <br>
-                        <div>
-                            <input type="checkbox" id="BSIS">
+                    <br>
+                            <input type="radio" id="course" name="course">
                             <label> BS Information Systems</label>
                         </div>
                     <br>
@@ -92,4 +96,6 @@
         </div>
     </form>
 </body>
+
+
 
