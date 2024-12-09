@@ -1,0 +1,95 @@
+<!-- Connection -->
+   <link rel="stylesheet" href="formDesign.css">
+
+<h1> BRENT ACADEMY </h1>
+    <head> At our school, we believe every child has the potential to achieve greatness. 
+        We offer a nurturing environment where creativity, curiosity, and critical thinking flourish. 
+        Our dedicated educators are committed to guiding students on their path to academic and personal growth. 
+        With modern facilities and innovative learning methods, we prepare students to succeed in a rapidly changing world. 
+        We emphasize both academic excellence and character development, fostering responsible, respectful, and resilient individuals. 
+        From arts and sciences to sports and technology, our well-rounded programs engage and inspire. Safety, inclusivity, 
+        and community are at the heart of everything we do. Every student matters, and every achievement is celebrated. 
+        Join a community where learning is an exciting adventure. Enroll at Bright Horizons Academy and unlock a future of possibilities!
+    </head>
+<br>
+<body> 
+    <form> 
+        <div class="Primary">
+        <!-- for primary informations credential -->
+            <div>
+                <label> First Name: </label>
+                <input type="text" id="firstName"> 
+            </div>
+
+            <br>
+
+            <div>
+                <label> Middle Name: </label>
+                <input type="text" id="middleName">
+            </div>
+
+            <br>
+
+            <div>
+                <label> Last Name: </label>
+                <input type="text" id="lastName">
+            </div>
+            <br>
+            <div clas="gender">
+                <input type="radio" id="male">
+                <label> Male </label>
+                <br>
+                <input type="radio" id="female">
+                <label> Female </label>
+            </div>
+        </div>
+            <br> 
+
+        <div class="secondary info">
+            <!-- for the essential informations credential -->
+             <div>
+                <label> Birth date:</label>
+                <input type ="date" id="bday">
+             </div>
+             <br>
+
+             <div>
+                <label> Email: </label>
+                <input type="text" id="email">
+             </div>
+
+             <br>
+             <div>
+                <label>Programs</label>
+                    <br>
+                        <div>
+                            <input type="checkbox" id="BSIT">
+                            <label>BS Information Technology</label>
+                        </div>
+                    <br>
+                        <div>
+                            <input type="checkbox" id="BSCS">
+                            <label> BS Computer Science </label>
+                        </div>
+                    <br>
+                        <div>
+                            <input type="checkbox" id="BSCPE">
+                            <label> BS Computer Engineering </label>
+                        </div>
+                    <br>
+                        <div>
+                            <input type="checkbox" id="BSIS">
+                            <label> BS Information Systems</label>
+                        </div>
+                    <br>
+                </div>
+        </div>
+            <br>
+        <div class="buttons">
+        <!-- for the buttons -->
+         <input type="reset">
+         <input type="submit">
+        </div>
+    </form>
+</body>
+
